@@ -146,8 +146,7 @@ bool Vector::empty() const {
 }
 
 void Vector::clear() {
-    //**check?????
-    //delete[] m_data;
+    m_data = nullptr;
     m_size = 0;
 }
 
